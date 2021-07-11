@@ -4,7 +4,7 @@ echo "OUTPUT_DIR: $OUTPUT_DIR"
 echo "MAIN_LATEX_FILE: $MAIN_LATEX_FILE"
 echo "CTAN_PACKAGES: $CTAN_PACKAGES"
 
-tlmgr install xetex
+tlmgr install pdflatex
 
 if [ -z "$CTAN_PACKAGES" ] ; then
 	echo No package to install;
