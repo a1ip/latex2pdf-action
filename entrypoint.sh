@@ -14,7 +14,7 @@ fi
 
 mkdir -p $OUTPUT_DIR
 
-lualatex -output-directory $OUTPUT_DIR $MAIN_LATEX_FILE
+pdflatex -output-directory $OUTPUT_DIR $MAIN_LATEX_FILE
 
 time=$(date)
 echo "::set-output name=time::$time"
